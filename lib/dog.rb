@@ -8,5 +8,5 @@ class Dog < ActiveRecord::Base
   end
 
   # self.create
-  
+
 end
