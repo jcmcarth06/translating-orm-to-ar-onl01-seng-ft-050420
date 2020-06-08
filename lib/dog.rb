@@ -7,6 +7,6 @@ class Dog < ActiveRecord::Base
     @breed = breed
   end
 
-  self.create
+  # self.create
   
 end
