@@ -7,6 +7,8 @@ class Dog < ActiveRecord::Base
     @breed = breed
   end
 
-  # self.create
+  def self.create(attributes)
+    attributes.each {|key, value| self.send(("#{key}="), value)}
+  end
 
 end
